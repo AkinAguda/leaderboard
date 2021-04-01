@@ -32,6 +32,7 @@ const Leaderboard = ({
           <img src="/images/logo.png" alt="logo" className={classes.logo} />
         </div>
       </div>
+
       <Table />
     </div>
     <button className={classes.close} onClick={close} />
