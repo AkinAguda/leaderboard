@@ -1,13 +1,41 @@
+@font-face {
+  font-family: mark-regular;
+  src: url(./assets/fonts/mark/Mark-Regular.ttf);
+}
+@font-face {
+  font-family: mark-bold;
+  src: url(./assets/fonts/mark/Mark-Bold.ttf);
+}
+@font-face {
+  font-family: bebas-regular;
+  src: url(./assets/fonts/bebas/BebasNeue-Regular.ttf);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: bebas-regular, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+:root {
+  --dark: #23282c;
+  --black: rgb(21, 9, 9);
+  --dark-blue: rgb(4, 4, 53);
+  --deep-blue: blue;
+  --grey: #73818f;
+  --orange: rgb(242, 170, 4);
+  --pale-orange: rgb(188, 145, 45);
+  --light: rgb(218, 208, 208);
+  --blue: rgb(136, 168, 232);
+  --pale-blue: rgba(27, 52, 103, 0.8);
+  --button-width: 265px;
+  --button-height: 80px;
 }

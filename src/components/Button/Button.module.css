@@ -1,0 +1,76 @@
+.button {
+  width: 300px;
+  height: 60px;
+  position: relative;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: center;
+  transition: opacity 0.3s;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover > .backgroundTile {
+  width: calc(var(--button-width) + 30px);
+}
+
+.button:hover > .strip {
+  width: calc(var(--button-width) + 5px);
+}
+
+.button:hover > .content {
+  color: var(--dark);
+  letter-spacing: 3px;
+}
+
+.tile,
+.strip {
+  display: block;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: skew(-20deg) translate(-50%, -50%);
+}
+
+.tile {
+  width: calc(var(--button-width) + 3px);
+  background: var(--dark);
+}
+
+.strip {
+  width: 0px;
+  background: var(--light);
+  transition: width 0.3s;
+}
+
+.backgroundTile {
+  display: block;
+  width: var(--button-width);
+  height: 70px;
+  background-color: var(--orange);
+  position: absolute;
+  top: 50%;
+  left: 45.7%;
+  transform: skew(-20deg) translate(-50%, -50%);
+  transition: 0.3s;
+}
+
+.content {
+  color: var(--light);
+  text-align: center;
+  width: var(--button-width);
+  position: relative;
+  margin: 0 auto;
+  font-size: 25px;
+  transition: 0.3s;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.fade {
+  opacity: 0;
+}

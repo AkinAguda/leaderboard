@@ -1,0 +1,114 @@
+[
+    {
+        "rank": 1,
+        "prevRank": 2,
+        "name": "Digital Athdletics",
+        "crestUrl": "images/team-logo.png",
+        "points": 141
+    },
+    {
+        "rank": 2,
+        "prevRank": 4,
+        "name": "Tornado Energy",
+        "crestUrl": "images/team-logo.png",
+        "points": 131
+    },
+    {
+        "rank": 3,
+        "prevRank": 1,
+        "name": "Nothern Lights",
+        "crestUrl": "images/team-logo.png",
+        "points": 131
+    },
+    {
+        "rank": 4,
+        "prevRank": 3,
+        "name": "Team Liquid",
+        "crestUrl": "images/team-logo.png",
+        "points": 125
+    },
+    {
+        "rank": 5,
+        "prevRank": 5,
+        "name": "shiftw",
+        "crestUrl": "images/team-logo.png",
+        "points": 97
+    },
+    {
+        "rank": 6,
+        "prevRank": 10,
+        "name": "ence",
+        "crestUrl": "images/team-logo.png",
+        "points": 95
+    },
+    {
+        "rank": 7,
+        "prevRank": 7,
+        "name": "natus vincere",
+        "crestUrl": "images/team-logo.png",
+        "points": 88
+    },
+    {
+        "rank": 8,
+        "prevRank": 9,
+        "name": "omaken sports",
+        "crestUrl": "images/team-logo.png",
+        "points": 86
+    },
+    {
+        "rank": 9,
+        "prevRank": 6,
+        "name": "tsm",
+        "crestUrl": "images/team-logo.png",
+        "points": 85
+    },
+    {
+        "rank": 10,
+        "prevRank": 13,
+        "name": "Faze clan",
+        "crestUrl": "images/team-logo.png",
+        "points": 83
+    },
+    {
+        "rank": 11,
+        "prevRank": 12,
+        "name": "red line",
+        "crestUrl": "images/team-logo.png",
+        "points": 80
+    },
+    {
+        "rank": 12,
+        "prevRank": 16,
+        "name": "Etiget",
+        "crestUrl": "images/team-logo.png",
+        "points": 74
+    },
+    {
+        "rank": 13,
+        "prevRank": 8,
+        "name": "Saunabois",
+        "crestUrl": "images/team-logo.png",
+        "points": 73
+    },
+    {
+        "rank": 14,
+        "prevRank": 11,
+        "name": "pinkpony",
+        "crestUrl": "images/team-logo.png",
+        "points": 64
+    },
+    {
+        "rank": 15,
+        "prevRank": 14,
+        "name": "bystanders",
+        "crestUrl": "images/team-logo.png",
+        "points": 57
+    },
+    {
+        "rank": 16,
+        "prevRank": 15,
+        "name": "Winstreak",
+        "crestUrl": "images/team-logo.png",
+        "points": 47
+    }
+]
